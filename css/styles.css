@@ -71,6 +71,7 @@ header {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
 }
 .logo-studio {
   color: var(--logo-studio-color);
@@ -118,16 +119,19 @@ header {
   color: var(--active-color);
 }
 .headline {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--special-backsround-color);
   text-align: center;
 }
-.headline .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+
 .headline .title {
   margin: 0;
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
 
   color: var(--white-text-color);
   font-weight: 900;
@@ -176,7 +180,7 @@ header {
 }
 
 .desc-doing {
-  padding: 0;
+  padding-top: 0;
 }
 .desc-doing .title {
   margin-bottom: 50px;
@@ -186,6 +190,7 @@ header {
   line-height: 42px;
   text-align: center;
 }
+
 .doing-img {
   display: flex;
 }
@@ -212,27 +217,35 @@ header {
 .common-employees .one-of:not(:last-child) {
   margin-right: 30px;
 }
+.person {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--white-text-color);
+}
 .employees .name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
 }
 .employees .job {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.1875;
   color: var(--desrp-color);
 }
-.container.footer {
-}
+
 .footer-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
   color: var(--white-text-color);
   background-color: var(--special-backsround-color);
   line-height: 1.71;
+}
+.footer .logo {
+  margin-right: 0;
+}
+.common-contacts.footer {
+  margin-top: 20px;
 }
 .footer-contacts .contact {
   text-decoration: none;
@@ -242,9 +255,7 @@ header {
 .contacts .item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-contacts .contacts {
-  margin-top: 20px;
-}
+
 .contact.address {
   color: var(--headline-text-colorhead);
 }
@@ -300,6 +311,7 @@ header {
   border-bottom: 1px solid var(--border-color);
 }
 .projects-name {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
